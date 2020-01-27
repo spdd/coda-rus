@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Сайт проекта"
+    url: https://codaprotocol.com/
   - title: "Обзор"
     url: /overview/
   - title: "Начало"
