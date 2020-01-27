@@ -4,7 +4,7 @@ permalink: /my-first-transaction/
 title: ""
 author_profile: false
 header:
-  image: "/images/coda.jpg"
+  image: "/images/coda3.jpg"
 ---
 
 

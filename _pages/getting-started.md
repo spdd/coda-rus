@@ -4,7 +4,7 @@ permalink: /getting-started/
 title: ""
 author_profile: false
 header:
-  image: "/images/coda.jpg"
+  image: "/images/coda2.jpg"
 ---
 
 # Начало

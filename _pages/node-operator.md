@@ -4,7 +4,7 @@ permalink: /node-operator/
 title: ""
 author_profile: false
 header:
-  image: "/images/coda.jpg"
+  image: "/images/coda4.jpg"
 ---
 
 # Станьте оператором ноды

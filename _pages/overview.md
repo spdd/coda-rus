@@ -4,7 +4,7 @@ permalink: /overview/
 title: ""
 author_profile: false
 header:
-  image: "/images/coda.jpg"
+  image: "/images/coda1.jpg"
 ---
 
 # Введение
