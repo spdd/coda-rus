@@ -1,7 +1,13 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Обзор"
+    url: /overview/
+  - title: "Начало"
+    url: /getting-started/
+  - title: "Моя первая транзакция"
+    url: /my-first-transaction/
+  - title: "Станьте оператором ноды"
+    url: /node-operator/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
