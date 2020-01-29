@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Протокол Coda - Сжатый Блокчейн!"
 date: 2020-01-29
 tags: [coda, cryptocurrency, zk-snarks]
 header:
@@ -7,8 +7,7 @@ header:
 excerpt: "Знакомство с протоколом Coda"
 ---
 
-
-# Протокол Coda - Сжатый Блокчейн!
+<!-- # Протокол Coda - Сжатый Блокчейн! -->
 
 Можете считать что кода Coda - **это кощелек в вашем кармане**.
 
@@ -25,8 +24,8 @@ excerpt: "Знакомство с протоколом Coda"
 
 _В "криптосфере" мы часто следуем девизу «Не доверяй, а проверяй», и несмотря на понимание необходимости быть активным пользователем сети, сегодня конечные пользователи блокчейнов с неохотой запускают полные ноды из-за постоянно возрастающего требования(со временем нужен более можный компьютер) для этого._
 
-<!-- ![Bitcoin Blockchain size](https://github.com/spdd/coda-rus/blob/master/_pages/images/image1.jpeg) -->
-![Bitcoin Blockchain size](/_pages/images/image1.jpeg)
+[![Bitcoin Blockchain size](https://github.com/spdd/coda-rus/blob/master/_pages/images/image1.jpeg)]()
+<!-- ![Bitcoin Blockchain size](/_pages/images/image1.jpeg) -->
 
 ###### [_Рост блокчейна Bitcoin в мегабайтах с ‘09–’18._](https://www.blockchain.com/en/charts/blocks-size?timespan=all)
 
