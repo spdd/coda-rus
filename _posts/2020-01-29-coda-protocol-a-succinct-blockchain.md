@@ -25,7 +25,7 @@ excerpt: "Знакомство с протоколом Coda"
 _В "криптосфере" мы часто следуем девизу «Не доверяй, а проверяй», и несмотря на понимание необходимости быть активным пользователем сети, сегодня конечные пользователи блокчейнов с неохотой запускают полные ноды из-за постоянно возрастающего требования(со временем нужен более можный компьютер) для этого._
 
 <!--![Bitcoin Blockchain size](https://github.com/spdd/coda-rus/blob/master/_pages/images/image1.jpeg)  -->
- ![Bitcoin Blockchain size](/images/image1.jpeg)
+ ![Bitcoin Blockchain size](/assets/img/image1.jpeg)
 
 ###### [_Рост блокчейна Bitcoin в мегабайтах с ‘09–’18._](https://www.blockchain.com/en/charts/blocks-size?timespan=all)
 
