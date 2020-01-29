@@ -1,3 +1,12 @@
+---
+title: "Протокол Coda - Сжатый Блокчейн!"
+date: 2020-01-29
+tags: [coda, cryptocurrency, zk-snarks]
+header:
+  image: "/_pages/images/image7.jpeg"
+excerpt: "Coda Protocolб "
+---
+
 
 # Протокол Coda - Сжатый Блокчейн!
 
