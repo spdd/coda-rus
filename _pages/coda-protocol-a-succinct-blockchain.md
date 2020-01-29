@@ -10,14 +10,8 @@
 
 Блокчейн Coda всегда имеет постоянный размер - **размер в несколько(Кб) твитов**, независимо от того сколько транзакций проходит в сети. 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=eWVGATxEB6M
-" target="_blank"><img src="http://img.youtube.com/vi/eWVGATxEB6M/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
 [![hack.summit(“blockchain”) 2018 — Izaak Meckler — co-founder and CTO, Coda Protocol](http://img.youtube.com/vi/eWVGATxEB6M/0.jpg)](http://www.youtube.com/watch?v=eWVGATxEB6M)
-
-https://www.youtube.com/watch?v=eWVGATxEB6M
-
+_hack.summit(“blockchain”) 2018 — Izaak Meckler — co-founder and CTO, Coda Protocol_
 
 _В "криптосфере" мы часто следуем девизу «Не доверяй, а проверяй», и несмотря на понимание необходимости быть активным пользователем сети, сегодня конечные пользователи блокчейнов с неохотой запускают полные ноды из-за постоянно возрастающего требования(со временем нужен более можный компьютер) для этого._
 
@@ -45,8 +39,8 @@ _В "криптосфере" мы часто следуем девизу «Не 
 
 >«Coda - это новый криптовалютный протокол, который позволяет любому синхронизироваться с сетью **на любом устройстве** с полной безопасностью на уровне полной ноды, загрузив несколько килобайт данных при этом произведя всего несколько миллисекунд вычислений по сравнению с гигабайтами и гигабайтами в традиционных протоколах, не говоря о процессорном времени которое потребуется для их обработки.»
 
-https://youtu.be/4AJKUGNwzZ0
-#243 Izaak Meckler & Evan Shapiro: Coda — A Succinct Blockchain — Epicenter
+[![#243 Izaak Meckler & Evan Shapiro: Coda — A Succinct Blockchain — Epicenter](http://img.youtube.com/vi/4AJKUGNwzZ0/0.jpg)](http://www.youtube.com/watch?v=4AJKUGNwzZ0)
+_#243 Izaak Meckler & Evan Shapiro: Coda — A Succinct Blockchain — Epicenter_
 
 [(O(1) Labs](https://medium.com/u/b6d3ede7e247?source=post_page-----bbcb4b212b13----------------------) разрабатывает **протокол Coda** для решения проблемы размера блокчейна путем создания первого **сжатого блокчейна размером в несколько твитов**. Это обеспечивает конечным пользователям более доступный способ проверки транзакций.
 
