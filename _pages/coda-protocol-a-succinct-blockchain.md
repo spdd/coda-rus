@@ -159,3 +159,6 @@ _Поддержание низкой потребности в ресурсах 
 ### Бонус
 
 Вы можете думать о Coda как о блокчейне, сжатом в Покебол. Вместо того, чтобы втиснуть Снорлакса в Покебол, Coda сжимает блокчейн в SNARK.
+
+![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image7.jpeg)
+###### _From ZCon0 Presentation — Izaak Meckler — https://www.youtube.com/watch?v=qCVACpgQSjo_
