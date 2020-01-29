@@ -10,9 +10,14 @@
 
 Блокчейн Coda всегда имеет постоянный размер - **размер в несколько(Кб) твитов**, независимо от того сколько транзакций проходит в сети. 
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=eWVGATxEB6M
+" target="_blank"><img src="http://img.youtube.com/vi/eWVGATxEB6M/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+[![hack.summit(“blockchain”) 2018 — Izaak Meckler — co-founder and CTO, Coda Protocol](http://img.youtube.com/vi/eWVGATxEB6M/0.jpg)](http://www.youtube.com/watch?v=eWVGATxEB6M)
+
 https://www.youtube.com/watch?v=eWVGATxEB6M
 
-hack.summit(“blockchain”) 2018 — Izaak Meckler — co-founder and CTO, Coda Protocol
 
 _В "криптосфере" мы часто следуем девизу «Не доверяй, а проверяй», и несмотря на понимание необходимости быть активным пользователем сети, сегодня конечные пользователи блокчейнов с неохотой запускают полные ноды из-за постоянно возрастающего требования(со временем нужен более можный компьютер) для этого._
 
