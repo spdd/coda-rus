@@ -1,10 +1,10 @@
 ---
-title: "Протокол Coda - Сжатый Блокчейн!"
+title: ""
 date: 2020-01-29
 tags: [coda, cryptocurrency, zk-snarks]
 header:
   image: "/_pages/images/image7.jpeg"
-excerpt: "Coda Protocol, Introduction"
+excerpt: "Знакомство с протоколом Coda"
 ---
 
 
@@ -19,13 +19,16 @@ excerpt: "Coda Protocol, Introduction"
 
 Блокчейн Coda всегда имеет постоянный размер - **размер в несколько(Кб) твитов**, независимо от того сколько транзакций проходит в сети. 
 
+Видео:
 [![hack.summit(“blockchain”) 2018 — Izaak Meckler — co-founder and CTO, Coda Protocol](http://img.youtube.com/vi/eWVGATxEB6M/0.jpg)](http://www.youtube.com/watch?v=eWVGATxEB6M)
 ###### _hack.summit(“blockchain”) 2018 — Izaak Meckler — co-founder and CTO, Coda Protocol_
 
 _В "криптосфере" мы часто следуем девизу «Не доверяй, а проверяй», и несмотря на понимание необходимости быть активным пользователем сети, сегодня конечные пользователи блокчейнов с неохотой запускают полные ноды из-за постоянно возрастающего требования(со временем нужен более можный компьютер) для этого._
 
-![Bitcoin Blockchain size](https://github.com/spdd/coda-rus/blob/master/_pages/images/image1.jpeg)
-###### _Рост блокчейна Bitcoin в мегабайтах с ‘09–’18._
+<!-- ![Bitcoin Blockchain size](https://github.com/spdd/coda-rus/blob/master/_pages/images/image1.jpeg) -->
+![Bitcoin Blockchain size](/_pages/images/image1.jpeg)
+
+###### [_Рост блокчейна Bitcoin в мегабайтах с ‘09–’18._](https://www.blockchain.com/en/charts/blocks-size?timespan=all)
 
 Предисловие.
 
@@ -35,7 +38,8 @@ _В "криптосфере" мы часто следуем девизу «Не 
 - Полная нода интенсивно работает на компьютере, это невозможно в на данный момент на мобильном телефоне.
 - Намного проще довверить валидацию третьим лицам.
 
-![Cryptocurrency](https://github.com/spdd/coda-rus/blob/master/_pages/images/image2.jpeg)
+<!-- ![Cryptocurrency](https://github.com/spdd/coda-rus/blob/master/_pages/images/image2.jpeg) -->
+![Cryptocurrency](/_pages/images/image2.jpeg)
 
 На ранних этапах любой криптовалюты, управлять полным нодой относительно легко, так как блокчейн небольшой - возможно, несколько мегабайт. Однако с течением времени пользователей становится все больше, соответственно количество транзакций увеличивается до сотен гигабайт (как видно на диаграмме выше). В тоже время ставится невозможно работать с полной нодой без более менее мощного компьютера, **не говоря уже о смартфоне**.
 
@@ -47,6 +51,7 @@ _В "криптосфере" мы часто следуем девизу «Не 
 
 >«Coda - это новый криптовалютный протокол, который позволяет любому синхронизироваться с сетью **на любом устройстве** с полной безопасностью на уровне полной ноды, загрузив несколько килобайт данных при этом произведя всего несколько миллисекунд вычислений по сравнению с гигабайтами и гигабайтами в традиционных протоколах, не говоря о процессорном времени которое потребуется для их обработки.»
 
+Видео:
 [![#243 Izaak Meckler & Evan Shapiro: Coda — A Succinct Blockchain — Epicenter](http://img.youtube.com/vi/4AJKUGNwzZ0/0.jpg)](http://www.youtube.com/watch?v=4AJKUGNwzZ0)
 ######  _#243 Izaak Meckler & Evan Shapiro: Coda — A Succinct Blockchain — Epicenter_
 
@@ -81,7 +86,8 @@ zk-SNARKs функционируют как не подделываемые се
 
 _Поддержание низкой потребности в ресурсах для проверки транзакций в блоке без доверия, является первым шагом к созданию устойчивого и масштабируемого решения данной проблемы._
 
-![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image3.jpeg)
+<!-- ![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image3.jpeg) -->
+![](/_pages/images/image3.jpeg)
 ######  _процессор SNARK, создающий SNARK/сертификат действительности для блока, который может быть передан в качестве доказательства, без учета всех транзакций_
 
 ---
@@ -102,7 +108,8 @@ _Поддержание низкой потребности в ресурсах 
 
 Хорошо, мы знаем, что SNARK может использоваться для сертификации(заверения) любых вычислений. Создание SNARK само по себе является вычислением. Что если мы создадим SNARK из нескольких SNARK'ков?
 
-![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image4.jpeg)
+<!-- ![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image4.jpeg) -->
+[](_pages/images/image4.jpeg)
 ###### _Несколько сертификатов/SNARK'ков, каждый из которых проверяется конечным пользователем._
 
 **Рекурсивная композиция SNARK'ков в Coda**
@@ -111,7 +118,8 @@ _Поддержание низкой потребности в ресурсах 
 
 Каждый раз когда создается новый блок, создается новый SNARK/сертификат. Создав один SNARK, состоящий из предыдущих сертификатов, вы можете создать грубо говоря один "мега" SNARK, который доказывает всю историю транзакций блокчейна, позволяя вам переходить от блока генеза к текущему состоянию, оставаясь при этом размером всего одного SNARK/сертификата.
 
-![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image5.jpeg)
+<!-- ![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image5.jpeg) -->
+[](_pages/images/image5.jpeg)
 ###### _Несколько сертификатов/SNARK'ков помещены в один сертификат/SNARK._
 
 **Допустим, у вас есть:**
@@ -126,7 +134,8 @@ _Поддержание низкой потребности в ресурсах 
 
 **Рекурсивно составленный zk-SNARK (1 Кб)**, который подтверждает достоверность всей прошлой истории блокчейна и **корневого пути merkle текущего состояния (20 Кб)**, вместе они доказывают действительность баланса пользователя. Все это занимает всего миллисекунды для синхронизации.
 
-![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image6.jpeg)
+<!-- ![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image6.jpeg) -->
+[](_pages/images/image6.jpeg)
 ###### _Конечный пользователь проверяет SNARK текущего состояния, которое включает в себя все прошлые сертификаты, а также путь Merkle. Все это в совокупности позволяет пользователю проверить свой баланс._
 
 ## Приложения, децентрализация и масштабируемость
@@ -169,5 +178,5 @@ _Поддержание низкой потребности в ресурсах 
 
 Вы можете думать о Coda как о блокчейне, сжатом в Покебол. Вместо того, чтобы втиснуть Снорлакса в Покебол, Coda сжимает блокчейн в SNARK.
 
-![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image7.jpeg)
-###### _From ZCon0 Presentation — Izaak Meckler — https://www.youtube.com/watch?v=qCVACpgQSjo_
+<!-- ![](https://github.com/spdd/coda-rus/blob/master/_pages/images/image7.jpeg) 
+###### _From ZCon0 Presentation — Izaak Meckler — https://www.youtube.com/watch?v=qCVACpgQSjo_ -->
