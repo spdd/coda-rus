@@ -6,9 +6,15 @@ main:
     url: /coda-protocol-a-succinct-blockchain/
   - title: "Документация"
     url: /overview/
-
+  - title: "Начало"
+    url: /getting-started/
+  - title: "Моя первая транзакция"
+    url: /my-first-transaction/
+  - title: "Станьте оператором ноды"
+    url: /node-operator/
+    
 docs:
-  - title: Введение
+  - title: "Введение"
     children:
       - title: "Обзор"
         url: /overview/ 
@@ -18,3 +24,8 @@ docs:
         url: /my-first-transaction/
       - title: "Станьте оператором ноды"
         url: /node-operator/
+
+    - title: "Разработчикам"
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
