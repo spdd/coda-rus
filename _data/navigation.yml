@@ -5,13 +5,15 @@ main:
   - title: "Как работает Coda"
     url: /coda-protocol-a-succinct-blockchain/
   - title: "Документация"
-    url: /docs/overview/
+    url: /overview/
   - title: "Начало"
-    url: /docs/getting-started/
+    url: /getting-started/
   - title: "Моя первая транзакция"
-    url: /docs/my-first-transaction/
+    url: /my-first-transaction/
   - title: "Станьте оператором ноды"
-    url: /docs/node-operator/
+    url: /node-operator/
+  - title: "Test"
+    url: /docs/portfolio-archive/
 docs:
   - title: "Введение"
     children:
