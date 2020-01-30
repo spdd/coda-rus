@@ -12,7 +12,6 @@ main:
     url: /my-first-transaction/
   - title: "Станьте оператором ноды"
     url: /node-operator/
-    
 docs:
   - title: "Введение"
     children:
@@ -24,8 +23,7 @@ docs:
         url: /my-first-transaction/
       - title: "Станьте оператором ноды"
         url: /node-operator/
-
-    - title: "Разработчикам"
+  - title: "Разработчикам"
     children:
       - title: "Configuration"
         url: /docs/configuration/
