@@ -27,6 +27,6 @@ docs:
     children:
       - title: "Обзор"
         url: /docs/configuration/
-       - title: "Codebase Overview"
+      - title: "Codebase Overview"
         url: /docs/configuration/
         
