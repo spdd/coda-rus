@@ -2,19 +2,15 @@
 main:
   - title: "Сайт проекта"
     url: https://codaprotocol.com/
-  - title: "Обзор"
-    url: /overview/
-  - title: "Начало"
-    url: /getting-started/
-  - title: "Моя первая транзакция"
-    url: /my-first-transaction/
-  - title: "Станьте оператором ноды"
-    url: /node-operator/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Как работает Coda"
+    url: /coda-protocol-a-succinct-blockchain/
+  - title: "Документация"
+    subfolderitems:
+      - page: "Обзор"
+        url: /overview/ 
+      - page: "Начало"
+        url: /getting-started/
+      - page: "Моя первая транзакция"
+        url: /my-first-transaction/
+      - page: "Станьте оператором ноды"
+        url: /node-operator/
