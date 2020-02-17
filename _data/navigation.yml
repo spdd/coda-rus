@@ -4,7 +4,7 @@ main:
     url: https://codaprotocol.com/
   - title: "Как работает Coda"
     url: /coda-protocol-a-succinct-blockchain/
-  - title: "Документация"
+  - title: "Обзор"
     url: /overview/
   - title: "Начало"
     url: /getting-started/
@@ -12,18 +12,23 @@ main:
     url: /my-first-transaction/
   - title: "Станьте оператором ноды"
     url: /node-operator/
+  - title: "Test"
+    url: /docs/portfolio-archive/
 docs:
   - title: "Введение"
     children:
       - title: "Обзор"
-        url: /overview/ 
+        url: /docs/overview/ 
       - title: "Начало"
-        url: /getting-started/
+        url: /docs/getting-started/
       - title: "Моя первая транзакция"
-        url: /my-first-transaction/
+        url: /docs/my-first-transaction/
       - title: "Станьте оператором ноды"
-        url: /node-operator/
+        url: /docs/node-operator/
   - title: "Разработчикам"
     children:
-      - title: "Configuration"
+      - title: "Обзор"
         url: /docs/configuration/
+      - title: "Codebase Overview"
+        url: /docs/configuration/
+        

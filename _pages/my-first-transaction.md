@@ -17,9 +17,10 @@ header:
 Введите следующие команды для запуска и подключения к сети ноды Coda:
 
     coda daemon \
+        -external-port 8302 \
         -discovery-port 8303 \
-        -peer /dns4/seed-one.genesis.o1test.net/tcp/10002/ipfs/12D3KooWP7fTKbyiUcYJGajQDpCFo2rDexgTHFJTxCH8jvcL1eAH \
-        -peer /dns4/seed-two.genesis.o1test.net/tcp/10002/ipfs/12D3KooWL9ywbiXNfMBqnUKHSB1Q1BaHFNUzppu6JLMVn9TTPFSA
+        -peer /dns4/seed-one.genesis-redux.o1test.net/tcp/10002/ipfs/12D3KooWP7fTKbyiUcYJGajQDpCFo2rDexgTHFJTxCH8jvcL1eAH \
+        -peer /dns4/seed-two.genesis-redux.o1test.net/tcp/10002/ipfs/12D3KooWL9ywbiXNfMBqnUKHSB1Q1BaHFNUzppu6JLMVn9TTPFSA
 
 Порт и хосты (peer) указанные выше относятся к seed адресам - это начальные узлы, к котором мы будем подключаться к сети для синхронизации ноды. Поскольку Coda является [одноранговым(peer-to-peer)](https://codaprotocol.com/docs/glossary#peer-to-peer) протоколом, у сети Coda нет центрального сервера. Если вы перенаправили свои порты (не TCP 8303 - порт используется по умолчанию) вам нужен дополнительный флаг к команде выше:  `-external-port <custom-TCP-port>`.
 

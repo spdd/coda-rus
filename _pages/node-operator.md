@@ -9,11 +9,11 @@ header:
 
 # Станьте оператором ноды
 
-<Alert kind="danger">
+<!-- <Alert kind="danger"> -->
   
   Команды для управления ноды все еще доводятся до стабильного состояния поэтому в будущем могут измениться. Если вы обнаружили ошибки не стесняйтесь исправлять их, открывайте запросы на исправление (pull request) в [репозитории](https://github.com/CodaProtocol/coda) разработчиков Coda!
 
-</Alert>
+<!-- </Alert> -->
 
 Итак, мы уже настроили нашу ноду Coda и отправили первую транзакцию, давайте рассмотрим другие способы взаимодействия с сетью Coda, а именно участие в консенсусе и помощь в сжатии данных путем создания zk-SNARKs. Управляя узлом, который помогает защитить сеть, вы можете получить coda за ваши усилия.
 
@@ -30,9 +30,10 @@ header:
 Так как мы уже имеем средства в нашем кошельке из [предыдущего шага](/coda-rus/my-first-transaction), мы можем запустить демон с флагом `-propose-key`, чтобы начать размещать(staking) coda. Давайте остановим наш текущий процесс демона и перезапустим его с помощью следующей команды, передавая путь к файлу для соответствующего закрытого ключа (ранее мы создали пару ключей `keys/my-wallet`):
 
     coda daemon \
+        -external-port 8302 \
         -discovery-port 8303 \
-        -peer /dns4/seed-one.genesis.o1test.net/tcp/10002/ipfs/12D3KooWP7fTKbyiUcYJGajQDpCFo2rDexgTHFJTxCH8jvcL1eAH \
-        -peer /dns4/seed-two.genesis.o1test.net/tcp/10002/ipfs/12D3KooWL9ywbiXNfMBqnUKHSB1Q1BaHFNUzppu6JLMVn9TTPFSA \
+        -peer /dns4/seed-one.genesis-redux.o1test.net/tcp/10002/ipfs/12D3KooWP7fTKbyiUcYJGajQDpCFo2rDexgTHFJTxCH8jvcL1eAH \
+        -peer /dns4/seed-two.genesis-redux.o1test.net/tcp/10002/ipfs/12D3KooWL9ywbiXNfMBqnUKHSB1Q1BaHFNUzppu6JLMVn9TTPFSA \
         -propose-key keys/my-wallet
         
 <Alert>
@@ -119,10 +120,10 @@ header:
 Когда вы [запускаете демон](/coda-rus/my-first-transaction/#start-up-a-node), задайте эти дополнительные аргументы, чтобы также запустить snark-worker:
 
     coda daemon \
+        -external-port 8302 \
         -discovery-port 8303 \
-        -peer /dns4/peer1-rising-phoenix.o1test.net/tcp/8303/ipfs/12D3KooWHMmfuS9DmmK9eH4GC31arDhbtHEBQzX6PwPtQftxzwJs \
-        -peer /dns4/peer2-rising-phoenix.o1test.net/tcp/8303/ipfs/12D3KooWAux9MAW1yAdD8gsDbYHmgVjRvdfYkpkfX7AnyGvQaRPF \
-        -peer /dns4/peer3-rising-phoenix.o1test.net/tcp/8303/ipfs/12D3KooWCZA4pPWmDAkQf6riDQ3XMRN5k99tCsiRhBAPZCkA8re7 \
+        -peer /dns4/seed-one.genesis-redux.o1test.net/tcp/10002/ipfs/12D3KooWP7fTKbyiUcYJGajQDpCFo2rDexgTHFJTxCH8jvcL1eAH \
+        -peer /dns4/seed-two.genesis-redux.o1test.net/tcp/10002/ipfs/12D3KooWL9ywbiXNfMBqnUKHSB1Q1BaHFNUzppu6JLMVn9TTPFSA \
         -run-snark-worker $CODA_PK \
         -snark-worker-fee <fee>
         
