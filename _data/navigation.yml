@@ -12,8 +12,8 @@ main:
     url: /my-first-transaction/
   - title: "Станьте оператором ноды"
     url: /node-operator/
-  - title: "Test"
-    url: /docs/portfolio-archive/
+  - title: "Экономика Coda"
+    url: /economics-whitepaper/
 docs:
   - title: "Введение"
     children:
